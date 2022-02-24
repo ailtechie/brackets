@@ -11,7 +11,7 @@ module.exports = function check(str, bracketsConfig) {
     if (key === obj[last]) {
         arr.pop();
     } else {
-        arr.push(keys);
+        arr.push(key);
     }
   }
   return arr.length === 0;
